@@ -196,8 +196,9 @@ header {
 @media (max-width: 600px) {
   
 	#header-img {
-		width: 10px;
-		height: 10px;
+		width: 30px;
+		height: 30px;
+		text-align center;
 	}
 }
 
