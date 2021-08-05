@@ -8,16 +8,6 @@
   justify-content: center;
   align-items: center;
  
-  
-	 
-                margin: 0;
-                
-               
-                width: 100% /* BenM mentioned this in answer*/
-                height: 100%; /* take full browser height */
-                left: 0;
-                top: 0;
- 
 }
 
 h4{
