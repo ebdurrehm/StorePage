@@ -101,7 +101,7 @@ header {
   margin-top: 27px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 730px) {
   .container {
   	margin-left: 0px;
   	margin-right: 5px;
