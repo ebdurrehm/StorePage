@@ -193,3 +193,9 @@ header {
 	float: left;
 	
 }
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
