@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
  
-  width: 100%;
+  
 	 
                 margin: 0;
                 
@@ -221,7 +221,7 @@ header {
 }
 
 html, body {
-     font-size: 40px;      
+       
      margin:0; /* remove default margin */
      padding:0; /* remove default padding */
      width:100%; /* take full browser width */
