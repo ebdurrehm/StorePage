@@ -2,13 +2,21 @@
 
 .container {
   display: flex;
-  margin: 20px;
+ 
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
  
   width: 100%;
+	 font-size: 0.5em;
+                margin: 0;
+                
+                position: absolute;
+                width: 100% /* BenM mentioned this in answer*/
+                height: 100%; /* take full browser height */
+                left: 0;
+                top: 0;
  
 }
 
@@ -40,6 +48,8 @@ body {
   margin-bottom: 40px;
   display: flex;
   flex-direction: row;
+	width: 100%; /* <--now this takes full browser dimension  */
+                height: 100%
   
 }
 #email {
@@ -209,4 +219,14 @@ header {
 		
 	}
 }
+
+html, body {
+     font-size: 40px;      
+     margin:0; /* remove default margin */
+     padding:0; /* remove default padding */
+     width:100%; /* take full browser width */
+     height:100%; /* take full browser height*/
+}
+
+
 
